@@ -1,12 +1,41 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 body {
     background-color: aliceblue;
     place-items: center;
     height: 100vh;
+}
+header {
+    height: 100px;
+}
+header nav ul {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 10%;
+    padding: 20px 0;
+}
+
+header nav ul li a{
+    /* padding: 15px; */
+}
+
+.flex-color {
+    background-color: hsl(31, 77%, 52%);
+    padding: 5px 20px;
+    border-radius:  10px;
+    margin-right: 5px;
+}
+.grid-color {
+    background-color: orangered;
+    padding: 5px 20px;
+    border-radius:  10px;
 }
 main {
     background-color: darkslateblue;
@@ -27,10 +56,12 @@ main div {
 .item-a {
     background-color: orangered;
     grid-area: a;
+    padding: 100px 0;
 }
 .item-b {
     background-color: aqua;
     grid-area: b;
+    padding: 100px 0;
 }
 .item-c {
     background-color: blueviolet;
