@@ -1,472 +1,105 @@
-/* 
-html5doctor.com Reset Stylesheet
-v1.6.1
-Last Updated: 2010-09-17
-Author: R/* 
-html5doctor.com Reset Stylesheet
-v1.6.1
-Last Updated: 2010-09-17
-Author: Richard Clark - http://richclarkdesign.com 
-Twitter: @rich_clark
-*/
 
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-}
-
-body {
-    line-height:1;
-}
-
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section { 
-    display:block;
-}
-
-nav ul {
-    list-style:none;
-}
-
-blockquote, q {
-    quotes:none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content:'';
-    content:none;
-}
-
-a {
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-}
-
-/* change colours to suit your needs */
-ins {
-    background-color:#ff9;
-    color:#000;
-    text-decoration:none;
-}
-
-/* change colours to suit your needs */
-mark {
-    background-color:#ff9;
-    color:#000; 
-    font-style:italic;
-    font-weight:bold;
-}
-
-del {
-    text-decoration: line-through;
-}
-
-abbr[title], dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
-}
-
-table {
-    border-collapse:collapse;
-    border-spacing:0;
-}
-
-/* change border colour to suit your needs */
-hr {
-    display:block;
-    height:1px;
-    border:0;   
-    border-top:1px solid #cccccc;
-    margin:1em 0;
-    padding:0;
-}
-
-input, select {
-    vertical-align:middle;
-}
 
 /*MY CODE STARTS HERE*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body {
-    width: 100%;
-
-}
-nav ul{
-    display: flex;
-    justify-content: space-around;
-    margin: auto;
-    flex-direction: row;
-    width: 20%;
-    padding: 20px;
-}
-nav ul li a{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
     text-decoration: none;
+    list-style: none;
 }
-img{
-    margin-bottom: 25px;
-}
-h1 {
-    font-family: 'Big Shoulders Display', cursive; 
-    color: hsl(0, 0%, 95%);
-}
-
-p {
-    font-family: 'Lexend Deca', sans-serif;
-    font-size: 15px;
-    color: hsla(0, 0%, 100%, 0.75);
-    line-height: 170%;
-    padding: 5% 20% 20% 0%;
-}
-
-.container {
-    display: flex;
-    margin: 12% 20% 0% 20%;
-    max-width: 1440px;
-}
-
-/* SEDAN*/
-
-.sedan {
-    padding: 5% 0% 5% 5%;
-    background-color: hsl(31, 77%, 52%);
-    border-radius: 10px 0px 0px 10px;
-}
-
-.sedan button {
-    color: hsl(31, 77%, 52%);
-}
-
-.sedan button:hover {
-    background-color: hsl(31, 77%, 52%);
-    color: hsl(0, 0%, 95%);
-}
-
-/* SUV */
-
-.suv {
-    padding: 5% 0% 5% 5%;
-    background-color: hsl(184, 100%, 22%);
-}
-
-.suv button {
-    color: hsl(184, 100%, 22%);
-}
-
-.suv button:hover {
-    background-color: hsl(184, 100%, 22%);
-    color: hsl(0, 0%, 95%);
-}
-
-/* LUXURY */
-
-.luxury {
-    padding: 5% 0% 5% 5%;
-    background-color: hsl(179, 100%, 13%);
-    border-radius: 0px 10px 10px 0px;
-}
-
-.luxury button {
-    color: hsl(179, 100%, 13%);
-}
-
-.luxury button:hover {
-    background-color: hsl(179, 100%, 13%);
-    color: hsl(0, 0%, 95%);
-}
-
-/* BUTTON */
-
-button {
-    font-family: 'Lexend Deca', sans-serif;
-    background-color: hsl(0, 0%, 95%);
-    text-align: center;
-    text-decoration: none;
-    padding: 12px 32px;
-    font-size: 15px;
-    border: solid 2px hsl(0, 0%, 95%);
-    border-radius: 30px;
-}
-/*MEDIA QUERY*/
-@media all and (max-width: 375px) {
-    .container {
-        margin: 5%;
-        display: flex;
-        flex-direction: column;
-       max-width: 375px;
-    }
-    .sedan {
-        padding: 5% 0% 5% 5%;
-        background-color: hsl(31, 77%, 52%);
-        border-bottom-left-radius: 0;
-        border-top-right-radius: 10px;
-    }
-    .luxury {
-        padding: 5% 0% 5% 5%;
-        background-color: hsl(179, 100%, 13%);
-        border-top-right-radius: 0;
-        border-bottom-left-radius: 10px;
-    }
-    
-}
-/*CSS GRID*/
-
-
-
-ichard Clark - http://richclarkdesign.com 
-Twitter: @rich_clark
+/* <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet" 
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
 */
 
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+body{
+    width: 1440px;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 95%);
 }
-
-body {
-    line-height:1;
+header {
+    height: 100px;
 }
-
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section { 
-    display:block;
-}
-
-nav ul {
-    list-style:none;
-}
-
-blockquote, q {
-    quotes:none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content:'';
-    content:none;
-}
-
-a {
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-}
-
-/* change colours to suit your needs */
-ins {
-    background-color:#ff9;
-    color:#000;
-    text-decoration:none;
-}
-
-/* change colours to suit your needs */
-mark {
-    background-color:#ff9;
-    color:#000; 
-    font-style:italic;
-    font-weight:bold;
-}
-
-del {
-    text-decoration: line-through;
-}
-
-abbr[title], dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
-}
-
-table {
-    border-collapse:collapse;
-    border-spacing:0;
-}
-
-/* change border colour to suit your needs */
-hr {
-    display:block;
-    height:1px;
-    border:0;   
-    border-top:1px solid #cccccc;
-    margin:1em 0;
-    padding:0;
-}
-
-input, select {
-    vertical-align:middle;
-}
-
-/*MY CODE STARTS HERE*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    width: 100%;
-
-}
-nav ul{
+header nav ul {
     display: flex;
-    justify-content: space-around;
-    margin: auto;
-    flex-direction: row;
-    width: 20%;
-    padding: 20px;
-}
-nav ul li a{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    text-decoration: none;
-}
-img{
-    margin-bottom: 25px;
-}
-h1 {
-    font-family: 'Big Shoulders Display', cursive; 
-    color: hsl(0, 0%, 95%);
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 10%;
+    padding: 20px 0;
 }
 
-p {
+.flex-color {
+    background-color: hsl(31, 77%, 52%);
+    padding: 5px 20px;
+    border-radius:  10px;
+}
+.grid-color {
+    background-color: hsl(357, 77%, 52%);
+    padding: 5px 20px;
+    border-radius:  10px;
+}
+
+.cards {
+    display: flex;
+    width: 800px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.card-details {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+.card-details p{
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
     color: hsla(0, 0%, 100%, 0.75);
-    line-height: 170%;
-    padding: 5% 20% 20% 0%;
 }
 
-.container {
-    display: flex;
-    margin: 12% 20% 0% 20%;
-    max-width: 1440px;
+.card-details h2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 15px;
+    color:  hsl(0, 0%, 95%);
 }
-
-/* SEDAN*/
-
-.sedan {
-    padding: 5% 0% 5% 5%;
+.first {
     background-color: hsl(31, 77%, 52%);
-    border-radius: 10px 0px 0px 10px;
 }
-
-.sedan button {
+.first button {
     color: hsl(31, 77%, 52%);
 }
-
-.sedan button:hover {
-    background-color: hsl(31, 77%, 52%);
-    color: hsl(0, 0%, 95%);
-}
-
-/* SUV */
-
-.suv {
-    padding: 5% 0% 5% 5%;
+.second {
     background-color: hsl(184, 100%, 22%);
 }
-
-.suv button {
+.second button{
     color: hsl(184, 100%, 22%);
 }
-
-.suv button:hover {
-    background-color: hsl(184, 100%, 22%);
-    color: hsl(0, 0%, 95%);
+.third {
+    background-color:  hsl(179, 100%, 13%);
 }
-
-/* LUXURY */
-
-.luxury {
-    padding: 5% 0% 5% 5%;
-    background-color: hsl(179, 100%, 13%);
-    border-radius: 0px 10px 10px 0px;
+.third button {
+    color:  hsl(179, 100%, 13%);
 }
+/*BUTTON*/
 
-.luxury button {
-    color: hsl(179, 100%, 13%);
+.card-details button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color:  hsl(0, 0%, 95%);
+    outline: none;
+    cursor: pointer;
+    border: 2px solid  hsl(0, 0%, 95%);
 }
-
-.luxury button:hover {
-    background-color: hsl(179, 100%, 13%);
-    color: hsl(0, 0%, 95%);
-}
-
-/* BUTTON */
-
-button {
-    font-family: 'Lexend Deca', sans-serif;
-    background-color: hsl(0, 0%, 95%);
-    text-align: center;
-    text-decoration: none;
-    padding: 12px 32px;
-    font-size: 15px;
-    border: solid 2px hsl(0, 0%, 95%);
-    border-radius: 30px;
-}
-/*MEDIA QUERY*/
-@media all and (max-width: 375px) {
-    .container {
-        margin: 5%;
-        display: flex;
-        flex-direction: column;
-       max-width: 375px;
-    }
-    .sedan {
-        padding: 5% 0% 5% 5%;
-        background-color: hsl(31, 77%, 52%);
-        border-bottom-left-radius: 0;
-        border-top-right-radius: 10px;
-    }
-    .luxury {
-        padding: 5% 0% 5% 5%;
-        background-color: hsl(179, 100%, 13%);
-        border-top-right-radius: 0;
-        border-bottom-left-radius: 10px;
-    }
+.card-details button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color:  hsl(0, 0%, 95%);
     
 }
-/*CSS GRID*/
-
-
-
