@@ -21,11 +21,6 @@ header nav ul {
     width: 10%;
     padding: 20px 0;
 }
-
-header nav ul li a{
-    /* padding: 15px; */
-}
-
 .flex-color {
     background-color: hsl(31, 77%, 52%);
     padding: 5px 20px;
@@ -33,12 +28,11 @@ header nav ul li a{
     margin-right: 5px;
 }
 .grid-color {
-    background-color: orangered;
+    background-color: #d62828;
     padding: 5px 20px;
     border-radius:  10px;
 }
 main {
-    background-color: darkslateblue;
     display: grid;
     grid-template-areas: 
     "a a b"
@@ -54,24 +48,24 @@ main div {
     text-align: center;
 }
 .item-a {
-    background-color: orangered;
+    background-color: #003049;
     grid-area: a;
     padding: 100px 0;
 }
 .item-b {
-    background-color: aqua;
+    background-color: #d62828;
     grid-area: b;
     padding: 100px 0;
 }
 .item-c {
-    background-color: blueviolet;
+    background-color: #f77f00;
     grid-area: c;
 }
 .item-d {
-    background-color: blue;
+    background-color: #fcbf49;
     grid-area: d;
 }
 .item-e {
-    background-color: black;
+    background-color: #eae2b7;
     grid-area: e;
 }
